@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.*
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Other auto-generated folders

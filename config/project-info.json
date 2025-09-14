@@ -1,0 +1,36 @@
+{
+  "project": {
+    "name": "QualityBot",
+    "version": "1.0.0",
+    "description": "AI-Powered Quality Management Assistant with Excel/ERP Integration",
+    "type": "full-stack-web-application",
+    "framework": "vite-react-typescript",
+    "backend": "python-fastapi",
+    "ai": "google-gemini",
+    "features": [
+      "AI Quality Management Assistant",
+      "Excel/ERP Integration",
+      "Role-based Dashboards",
+      "Quality Tools & Analytics",
+      "ROI Calculator",
+      "Real-time Metrics"
+    ],
+    "target_users": ["MSME Owners", "Quality Engineers", "Students"],
+    "technologies": [
+      "React 18",
+      "TypeScript",
+      "Tailwind CSS",
+      "Python 3.12",
+      "FastAPI",
+      "Google Gemini AI",
+      "JWT Authentication"
+    ],
+    "deployment": {
+      "frontend": "Vercel",
+      "backend": "Railway/Render",
+      "database": "PostgreSQL (future)"
+    },
+    "created_by": "Student Developer",
+    "purpose": "Hackathon Project - Quality Management Innovation"
+  }
+}
