@@ -169,6 +169,8 @@ function App() {
 
     try {
       // Call real AI backend
+      const API_BASE_URL = import.meta.env.VITE_API_URL; 
+
       const response = await fetch(`${API_BASE_URL}/chat`, {
         method: "POST",
         headers: {
